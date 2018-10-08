@@ -29,14 +29,14 @@ public class Main {
 		Iterator it = lista.iterator();
 		
 		while (it.hasNext()) {
-			int cont = 0; //número de acarreos
+			int cont = 0; //numero de acarreos
 			
 			String numeros = (String) it.next();
 			StringTokenizer tokens_numeros = new StringTokenizer(numeros);
 			String num1 = tokens_numeros.nextToken();
 			String num2 = tokens_numeros.nextToken();
 			
-			//Tengo que empezar a sumar por detrás. Es posible que los números no tengan la misma longitud
+			//Tengo que empezar a sumar por detras. Es posible que los numeros no tengan la misma longitud
 			int t1 = num1.length() - 1;
 			int t2 = num2.length() - 1;
 			
