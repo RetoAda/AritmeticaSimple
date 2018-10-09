@@ -48,8 +48,10 @@ public class Main {
 				t2 --;
 			}
 			
-			if (cont > 0) System.out.println(cont + " operaciones de acarreo.");
-			else System.out.println("No hay operaciones de acarreo.");
+			if (cont == 1) System.out.println("1 operación de acarreo.");
+			else 
+				if (cont > 0) System.out.println(cont + " operaciones de acarreo.");
+				else System.out.println("No hay operaciones de acarreo.");
 		}
 		
 	}
